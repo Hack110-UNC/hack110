@@ -17,7 +17,7 @@ export default function landing() {
               <li><Link to="/map" className="hover:text-blue-400 transition">Map</Link></li>
               <li><Link to="/workshops" className="hover:text-blue-400 transition">Workshops</Link></li>
               <li className="col-span-2 text-center">
-                <Link to="https://forms.gle/DtV1ujdDXusFR7MRA" className="text-blue-400 font-bold hover:text-blue-300 transition">
+                <Link to="https://forms.gle/M8X9kedHngwkSej38" className="text-blue-400 font-bold hover:text-blue-300 transition">
                   Sign Up
                 </Link>
               </li>
@@ -34,7 +34,7 @@ export default function landing() {
                     <p className="text-xl max-w-2xl mx-auto mb-10">
                         Ready to code, collaborate, and create? Sign up for the most exciting hackathon at UNC!
                     </p>
-                    <Link to="https://forms.gle/DtV1ujdDXusFR7MRA" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-full text-lg font-semibold transition">
+                    <Link to="https://forms.gle/M8X9kedHngwkSej38" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-full text-lg font-semibold transition">
                         Register Now
                     </Link>
                 </div>
