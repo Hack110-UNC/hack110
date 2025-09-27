@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>Test Page</h1>
+    <p>If you can see this, GitHub Pages is working.</p>
+    <p>Current URL: <span id="url"></span></p>
+    <script>
+        document.getElementById('url').textContent = window.location.href;
+        console.log('Test page loaded successfully');
+        console.log('Current path:', window.location.pathname);
+        console.log('Base URL:', window.location.origin);
+    </script>
+</body>
+</html>
