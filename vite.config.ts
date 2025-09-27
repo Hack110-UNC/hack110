@@ -12,4 +12,8 @@ export default defineConfig({
     },
   },
   base: '/hack110/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  },
 });

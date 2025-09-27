@@ -18,9 +18,9 @@ export default function Workshops() {
               <li><Link to="/map" className="hover:text-blue-400 transition">Map</Link></li>
               <li><Link to="/workshops" className="hover:text-blue-400 transition">Workshops</Link></li>
               <li className="col-span-2 text-center">
-                <Link to="https://forms.gle/M8X9kedHngwkSej38" className="text-blue-400 font-bold hover:text-blue-300 transition">
+                <a href="https://forms.gle/M8X9kedHngwkSej38" target="_blank" rel="noopener noreferrer" className="text-blue-400 font-bold hover:text-blue-300 transition">
                   Sign Up
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
