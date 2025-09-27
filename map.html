@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map - Hack110</title>
+    <link rel="icon" type="image/svg+xml" href="./images/Hack110.svg">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body class="bg-gradient min-h-screen text-white">
+    <!-- Header -->
+    <header class="header">
+        <div class="container flex justify-between items-center">
+            <a href="index.html" class="logo-link">
+                <img src="./images/Hack110.svg" alt="Hack110 Logo" class="logo" onerror="this.src='./images/Hack110logo.png'">
+                <span class="text-2xl font-bold">HACK 110</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="map.html" class="nav-link">Map</a></li>
+                    <li><a href="workshops.html" class="nav-link">Workshops</a></li>
+                    <li>
+                        <a href="https://forms.gle/M8X9kedHngwkSej38" target="_blank" rel="noopener noreferrer" class="text-blue-400 font-bold nav-link">
+                            Sign Up
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Floor Plans Section -->
+    <section class="pt-32 pb-16 px-4">
+        <h2 class="text-4xl font-extrabold text-center mb-12">Floor Plans</h2>
+        <div class="flex flex-col items-center justify-center min-h-screen gap-8">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-4">Level 0</h3>
+                <img 
+                    src="./images/SittBrooks_level_0_horiz_no_labels-1536x1006.jpg" 
+                    alt="SittBrooks Level 0 Floor Plan" 
+                    class="img-responsive hover:scale-105 transition-transform rounded-lg"
+                    style="max-width: 800px;"
+                />
+            </div>
+            
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-4">Level 1</h3>
+                <img 
+                    src="./images/SittBrooks_level_1_horiz_no_labels-1536x985.jpg" 
+                    alt="SittBrooks Level 1 Floor Plan" 
+                    class="img-responsive hover:scale-105 transition-transform rounded-lg"
+                    style="max-width: 800px;"
+                />
+            </div>
+            
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-4">Level 2</h3>
+                <img 
+                    src="./images/SittBrooks_level_2_horiz_no_labels-scaled.jpg" 
+                    alt="SittBrooks Level 2 Floor Plan" 
+                    class="img-responsive hover:scale-105 transition-transform rounded-lg"
+                    style="max-width: 800px;"
+                />
+            </div>
+        </div>
+
+        <!-- Location Info -->
+        <div class="container mt-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="card">
+                    <h3 class="text-black text-2xl font-bold mb-6">Location Details</h3>
+                    <div class="text-black space-y-3">
+                        <p><strong>Building:</strong> Sitterson Hall (SN) & Fred Brooks Building (FB)</p>
+                        <p><strong>Address:</strong> 201 S Columbia St, Chapel Hill, NC 27514</p>
+                        <p><strong>Main Event:</strong> Sitterson Hall</p>
+                        <p><strong>Additional Activities:</strong> Fred Brooks Building</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h3 class="text-black text-2xl font-bold mb-6">Key Rooms</h3>
+                    <div class="text-black space-y-3">
+                        <p><strong>SN 011:</strong> Workshop & Activities</p>
+                        <p><strong>SN 014:</strong> Main Workshop Space</p>
+                        <p><strong>SN 115:</strong> Specialized Workshops</p>
+                        <p><strong>FB 007:</strong> Gaming Activities</p>
+                        <p><strong>FB 009:</strong> Escape Room</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="py-10 bg-opacity-70 bg-black">
+        <div class="container">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <span class="font-bold">HACK 110</span>
+                </div>
+                <div class="text-sm text-gray-400">
+                    © 2025 Hack 110. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

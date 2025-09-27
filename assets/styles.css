@@ -1,0 +1,493 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Layout utilities */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.w-full {
+    width: 100%;
+}
+
+/* Flexbox utilities */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* Grid utilities */
+.grid {
+    display: grid;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gap-1 {
+    gap: 0.25rem;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.gap-8 {
+    gap: 2rem;
+}
+
+.gap-12 {
+    gap: 3rem;
+}
+
+/* Spacing */
+.p-4 {
+    padding: 1rem;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.pt-20 {
+    padding-top: 5rem;
+}
+
+.pt-24 {
+    padding-top: 6rem;
+}
+
+.pt-32 {
+    padding-top: 8rem;
+}
+
+.pb-16 {
+    padding-bottom: 4rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+    margin-bottom: 2rem;
+}
+
+.mb-10 {
+    margin-bottom: 2.5rem;
+}
+
+.mb-12 {
+    margin-bottom: 3rem;
+}
+
+.mt-16 {
+    margin-top: 4rem;
+}
+
+/* Text utilities */
+.text-center {
+    text-align: center;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+}
+
+.text-6xl {
+    font-size: 3.75rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+/* Colors */
+.text-white {
+    color: #ffffff;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-blue-400 {
+    color: #60a5fa;
+}
+
+.text-blue-300 {
+    color: #93c5fd;
+}
+
+.text-gray-400 {
+    color: #9ca3af;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-blue-600 {
+    background-color: #2563eb;
+}
+
+.bg-blue-700 {
+    background-color: #1d4ed8;
+}
+
+.bg-opacity-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-opacity-70 {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Background gradient */
+.bg-gradient {
+    background: linear-gradient(to bottom, #831843, #ea580c, #14b8a6);
+}
+
+/* Positioning */
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.z-50 {
+    z-index: 50;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+/* Border radius */
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+/* Effects */
+.backdrop-blur-md {
+    backdrop-filter: blur(12px);
+}
+
+.backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* Buttons and links */
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+/* Navigation */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #60a5fa;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    z-index: 50;
+    padding: 1rem 0;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(4px);
+}
+
+.card-black {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+/* Images */
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.object-contain {
+    object-fit: contain;
+}
+
+/* Responsive design */
+@media (min-width: 640px) {
+    .sm\\:flex {
+        display: flex;
+    }
+    
+    .sm\\:flex-row {
+        flex-direction: row;
+    }
+    
+    .sm\\:gap-8 {
+        gap: 2rem;
+    }
+    
+    .sm\\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 768px) {
+    .md\\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    
+    .md\\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    
+    .md\\:flex-row {
+        flex-direction: row;
+    }
+    
+    .md\\:mb-0 {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+/* Utility classes for spacing */
+.space-y-3 > * + * {
+    margin-top: 0.75rem;
+}
+
+.space-y-20 > * + * {
+    margin-top: 5rem;
+}
+
+/* Max width */
+.max-w-2xl {
+    max-width: 42rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Height utilities */
+.h-64 {
+    height: 16rem;
+}
+
+.h-80 {
+    height: 20rem;
+}
+
+/* Mobile navigation fix */
+@media (max-width: 639px) {
+    .nav-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.25rem;
+        text-align: center;
+    }
+    
+    .nav-list li:last-child {
+        grid-column: span 2;
+    }
+}
+
+/* List styles */
+.list-disc {
+    list-style-type: disc;
+}
+
+.pl-5 {
+    padding-left: 1.25rem;
+}
+
+/* Transitions */
+.transition {
+    transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.hover\\:scale-105:hover {
+    transform: scale(1.05);
+}
+
+.transition-transform {
+    transition: transform 0.3s ease;
+}
+
+/* Small text */
+.text-sm {
+    font-size: 0.875rem;
+}
+
+/* Inline block */
+.inline-block {
+    display: inline-block;
+}
+
+/* Logo styles */
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
