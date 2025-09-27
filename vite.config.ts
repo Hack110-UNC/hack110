@@ -11,7 +11,7 @@ export default defineConfig({
       plugins: [tailwindcss()],
     },
   },
-  base: '/hack110/',
+  base: './',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
