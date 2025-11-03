@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Hack110</title>
-    <link rel="icon" type="image/svg+xml" href="./images/Hack110.svg">
+    <link rel="icon" type="image/svg+xml" href="./images/Hack110-logo-25.png">
     <link rel="stylesheet" href="./assets/styles.css">
 </head>
 <body class="bg-gradient min-h-screen text-white">
@@ -12,7 +12,7 @@
     <header class="header">
         <div class="container flex justify-between items-center">
             <a href="index.html" class="logo-link">
-                <img src="./images/Hack110.svg" alt="Hack110 Logo" class="logo" onerror="this.src='./images/Hack110logo.png'">
+                <img src="./images/Hack110-logo-25.png" alt="Hack110 Logo" class="logo" onerror="this.src='./images/Hack110logo.png'">
                 <span class="text-2xl font-bold">HACK 110</span>
             </a>
             
@@ -22,6 +22,7 @@
                     <li><a href="about.html" class="nav-link">About</a></li>
                     <li><a href="map.html" class="nav-link">Map</a></li>
                     <li><a href="workshops.html" class="nav-link">Workshops</a></li>
+                    <li><a href="prizes.html" class="nav-link">Prizes</a></li>
                     <li>
                         <a href="https://forms.gle/M8X9kedHngwkSej38" target="_blank" rel="noopener noreferrer" class="text-blue-400 font-bold nav-link">
                             Sign Up
@@ -48,7 +49,7 @@
                     />
                 </div>
 
-                <div class="card h-64">   
+                <div class="card h-64 mt-alot">   
                     <h3 class="text-black text-2xl font-bold mb-6">What is Hack 110?</h3>
                     <p class="text-black">Hack 110 is an experience created specifically for students currently taking COMP 110 who have <strong>no</strong> prior experience outside of the class itself. It's a beginner-friendly hackathon designed to introduce new programmers to the world of collaborative coding.</p>
                 </div>
@@ -62,6 +63,25 @@
             <!-- Event Details -->
             <div>
                 <h2 class="text-3xl font-bold mb-8 text-center">The Experience</h2>
+
+                <!-- Image Grid -->
+            <div class="mt-16 mb-6">
+                <div class="grid grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <div class="aspect-square">
+                        <img src="./images/F24-TAJudge.png" alt="Hack110 Judges" class="w-full h-full object-cover rounded-lg"/>
+                    </div>
+                    <div class="aspect-square">
+                        <img src="./images/poker-2.jpg" alt="Hack110 Poker Night" class="w-full h-full object-cover rounded-lg"/>
+                    </div>
+                    <div class="aspect-square">
+                        <img src="./images/lunchline-1.png" alt="Hack110 Lunchline 1" class="w-full h-full object-cover rounded-lg"/>
+                    </div>
+                    <div class="aspect-square">
+                        <img src="./images/lunchline-2.png" alt="Hack110 Lunchline 2" class="w-full h-full object-cover rounded-lg"/>
+                    </div>
+                </div>
+            </div>
+                
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div class="card">
                         <h3 class="text-black text-2xl font-bold mb-8">What to Expect</h3>
@@ -74,13 +94,13 @@
                             <li>Free food and swag</li>
                         </ul>
                     </div>
-                    <div class="relative h-80 rounded-lg overflow-hidden">
+                    <!-- <div class="relative h-80 rounded-lg">
                         <img 
                             src="./images/F24-TAJudge.png" 
-                            alt="Students at Hack 110" 
-                            class="object-cover w-full h-full"
+                            alt="Judges at Hack 110" 
+                            class="object-cover img-responsive w-full h-full"
                         />
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -91,25 +111,16 @@
                     <div class="card">
                         <h3 class="text-black text-2xl font-bold mb-8">Saturday Schedule</h3>
                         <div class="text-black space-y-3">
-                            <div><strong>9:00 AM</strong> - Check-in & Breakfast</div>
+                            <div><strong>09:30 AM</strong> - Check-in </div>
                             <div><strong>10:00 AM</strong> - Opening Ceremony</div>
-                            <div><strong>10:30 AM</strong> - Team Formation</div>
-                            <div><strong>11:00 AM</strong> - Hacking Begins!</div>
-                            <div><strong>12:00 PM</strong> - Lunch & Workshops</div>
-                            <div><strong>3:00 PM</strong> - Mini Activities</div>
-                            <div><strong>6:00 PM</strong> - Dinner</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <h3 class="text-black text-2xl font-bold mb-8">Sunday Schedule</h3>
-                        <div class="text-black space-y-3">
-                            <div><strong>9:00 AM</strong> - Breakfast</div>
-                            <div><strong>10:00 AM</strong> - Final Push</div>
-                            <div><strong>12:00 PM</strong> - Lunch</div>
-                            <div><strong>1:00 PM</strong> - Project Submissions</div>
-                            <div><strong>2:00 PM</strong> - Presentations</div>
-                            <div><strong>4:00 PM</strong> - Awards Ceremony</div>
-                            <div><strong>5:00 PM</strong> - Closing</div>
+                            <div><strong>10:30 AM</strong> - Project and Git Setup</div>
+                            <div><strong>11:00 AM</strong> - Lunch</div>
+                            <div><strong>12:00 PM</strong> - Workshops Begin</div>
+                            <div><strong>06:00 PM</strong> - Dinner</div>
+                            <div><strong>09:45 PM</strong> - Project Submission Due</div>
+                            <div><strong>09:55 PM</strong> - Hacking Ends</div>
+                            <div><strong>10:00 PM</strong> - Demos and Judging</div>
+                            <div><strong>11:30 PM</strong> - Closing Ceremony</div>
                         </div>
                     </div>
                 </div>
@@ -120,12 +131,13 @@
                 <h2 class="text-3xl font-bold mb-8 text-center">Previous Winners</h2>
                 <div class="flex justify-center">
                     <img 
-                        src="./images/F24-Winners.png" 
+                        src="./images/S25-Winners.jpeg" 
                         alt="Hack 110 Winners" 
                         class="object-contain img-responsive rounded-lg"
                     />
                 </div>
             </div>
+
         </div>
     </section>
     
